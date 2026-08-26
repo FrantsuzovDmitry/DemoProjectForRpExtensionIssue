@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+
+  "ide": {
+    "traceability": {
+      "tagLinks": [
+        {
+          "tagPattern": "Bug(?<id>\\d+)",
+          "urlTemplate": "https://demo/tfs/project/_workitems/edit/{id}"
+        },
+        {
+          "tagPattern": "CASE(?<id>\\d+)",
+          "urlTemplate": "https://demo/tfs/project/_workitems/edit/{id}"
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Error"
+  }
+}

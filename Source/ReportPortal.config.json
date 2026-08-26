@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-dotnet-reqnroll/master/src/ReportPortal.ReqnrollPlugin/ReportPortal.config.schema",
+  "enabled": false,
+  "server": {
+    "url": "http://192.168.xxx.xxx:8080/api/v1/",
+    "project": "project",
+    "apiKey": "token",
+    "authentication": {
+      "uuid": "token"
+    }
+  },
+  "launch": {
+    "name": "develop/debug"
+  }
+}

@@ -1,0 +1,12 @@
+global using System;
+global using System.Configuration;
+global using System.IO;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using NLog;
+global using NUnit.Framework;
+global using NUnit.Framework.Interfaces;
+global using ReportPortal.ReqnrollPlugin;
+global using ReportPortal.ReqnrollPlugin.EventArguments;
+global using Reqnroll;
+global using Environment = System.Environment;

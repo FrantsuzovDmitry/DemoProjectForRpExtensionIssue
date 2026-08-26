@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KeySystem": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
